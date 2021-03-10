@@ -29,16 +29,16 @@ mysql2, passport, sequelize, bcryptjs, express, express-session,
 
 # Steps to run the app
 
-1)To start using this app, please pull from gitlab into your local storage.
-2)Create a mysql db called "passport_demo".
-3)Open the app in Visual Studio.
-4)Open config.json and change the developement database by inserting your information for your mysql database, that is username and password
-5)Go to your app in Visual Studio, right-click on any file and choose "Open in Integrated Terminal".
-6)Type and run "npm i" to install all the npm node packages and dependencies
-7)In terminal, type and run "node server.js" and the server will connect successfully
-8)To open the browser, select the command key and at the same time click on "localhost:8080" at the bottom
+1. To start using this app, please pull from gitlab into your local storage.
+2. Create a mysql db called "passport_demo".
+3. Open the app in Visual Studio.
+4. Open config.json and change the developement database by inserting your information for your mysql database, that is username and password
+5. Go to your app in Visual Studio, right-click on any file and choose "Open in Integrated Terminal".
+6. Type and run "npm i" to install all the npm node packages and dependencies
+7. In terminal, type and run "node server.js" and the server will connect successfully
+8. To open the browser, select the command key and at the same time click on "localhost:8080" at the bottom
 of Visual Studio where your app is executing
-9)The logging page will appear and you can start using the app
+9. The logging page will appear and you can start using the app
 
 # --DISSECTING THE CODE--
 
