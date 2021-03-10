@@ -23,7 +23,7 @@ user's email address in the greeting message.
 # Technology used
 mysql2, passport, sequelize, bcryptjs, express, express-session, 
 
-# #Steps to run the app
+# Steps to run the app
 1)To start using this app, please pull from gitlab into your local storage. 
 2)Create a mysql db called "passport_demo".
 3)Open the app in Visual Studio.
@@ -37,7 +37,7 @@ of Visual Studio where your app is executing
 
 # --DISSECTING THE CODE--
 
-CONFIGS
+# CONFIGS
 config.json
 Loads the default configuration file.
 Loads environment specific configuration file declared by user and overrides defaults;
@@ -45,8 +45,9 @@ It also uses environment variables, and command-line arguments to override data 
 
 package-lock.json
 Keeps track of the exact version of every package that is installed so that an app is able to work even if packages are updated.
+
 --------------------------------------------------------------------
-# MIDDLEWARE
+# Middleware
 
 var app = express();
 app.use(express.urlencoded({ extended: true }));
@@ -67,7 +68,7 @@ passport.js
 Configures how the logging should be. the logging form requires a username/email and password to enable a user to successfully log in.
 
 --------------------------------------------------------------------
-# MODELS
+# Models
 
 index.js 
 connects to database and imports users data using sequelize, meaning that it uses code first to create and populate the database
@@ -76,7 +77,7 @@ user.js
 Main function is to encrypt users password using crypt, which is a password hasing function.
 
 --------------------------------------------------------------------
-# ROUTES
+# Routes
 
 api-routes.js 
 Acts as a gatekeeper while users are signing in. It checks the authentication of users signing in or logging in through the use of the Sequelize User Model. 
