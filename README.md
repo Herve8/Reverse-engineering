@@ -37,7 +37,7 @@ of Visual Studio where your app is executing
 
 # --DISSECTING THE CODE--
 
-# CONFIGS
+# Configs
 config.json
 Loads the default configuration file.
 Loads environment specific configuration file declared by user and overrides defaults;
